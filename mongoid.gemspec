@@ -380,20 +380,20 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<activemodel>, [">= 3.0.rc"])
-      s.add_runtime_dependency(%q<will_paginate>, [">= 3.0.rc"])
+      s.add_runtime_dependency(%q<will_paginate>, [">= 3.0.pre"])
       s.add_runtime_dependency(%q<mongo>, [">= 0.19.1"])
       s.add_development_dependency(%q<rspec>, [">= 1.3.0"])
       s.add_development_dependency(%q<mocha>, [">= 0.9.8"])
     else
       s.add_dependency(%q<activemodel>, [">= 3.0.rc"])
-      s.add_dependency(%q<will_paginate>, [">= 3.0.rc"])
+      s.add_dependency(%q<will_paginate>, [">= 3.0.pre"])
       s.add_dependency(%q<mongo>, [">= 0.19.1"])
       s.add_dependency(%q<rspec>, [">= 1.3.0"])
       s.add_dependency(%q<mocha>, [">= 0.9.8"])
     end
   else
     s.add_dependency(%q<activemodel>, [">= 3.0.rc"])
-    s.add_dependency(%q<will_paginate>, [">= 3.0.rc"])
+    s.add_dependency(%q<will_paginate>, [">= 3.0.pre"])
     s.add_dependency(%q<mongo>, [">= 0.19.1"])
     s.add_dependency(%q<rspec>, [">= 1.3.0"])
     s.add_dependency(%q<mocha>, [">= 0.9.8"])
